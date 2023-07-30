@@ -1,0 +1,28 @@
+.MainLayout {
+    height: 100%;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-rows: 13% 87%;
+    grid-template-columns: repeat(6, 1fr);
+    margin: auto;
+}
+
+.MainLayout>main,
+.MainLayout>header {
+    grid-column: span 6;
+}
+
+.MainLayout>header {
+    background-color: rgb(70, 213, 199);
+    box-shadow: inset -10px -5px 20px 0px  rgb(23, 117, 107);
+}
+.MainLayout>* {
+    border: solid 1px black;
+}
+
+.MainLayout>main{
+    height: 99.8%;
+    overflow: auto;
+}
+
+

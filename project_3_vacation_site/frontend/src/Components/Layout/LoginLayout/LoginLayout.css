@@ -1,0 +1,65 @@
+a {
+    color: blue;
+}
+
+.loginBox {
+    margin: auto;
+    margin-top: 40px;
+    border: 1px solid grey;
+    width: 280px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 5px 5px 20px 2px gray;
+}
+
+.smallHeader {
+    text-align: center;
+    background-color: rgb(77, 77, 252);
+    height: 50px;
+    font-size: 35px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: 1px solid grey;
+    margin-top: -1px;
+    width: 280px;
+    margin-left: -1px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+input{
+    border: 1px solid grey;
+    border-radius: 7px;
+    padding: 10px 10px;
+    margin: auto;
+    width: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.btn{
+    border: 1px solid grey;
+    border-radius: 7px;
+    padding: 7px 10px;
+    width: 222px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(77, 77, 252);
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px 0px  grey;
+}
+
+.link{
+    margin-bottom: 20px;
+}
+
+.notUser{
+    color:red
+}
+
+.sophia{
+    margin-top: 5px;
+    text-align: center;
+}

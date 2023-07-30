@@ -1,0 +1,25 @@
+.ChartPage {
+    width: 100%;
+    height: 100%;
+}
+
+.chartContainer {
+    width: 1000px;
+    margin: auto;
+}
+
+.btnDiv {
+    margin: auto;
+    width: 1000px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.downloadBtn {
+    width: 150px;
+    background-color: rgb(71, 224, 71);
+}
+
+.backBtn{
+    width: 150px;
+}
